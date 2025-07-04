@@ -19,6 +19,7 @@ public class OfferPageStepDefinition {
 
 	public OfferPageStepDefinition(TestContextSetup testContextSetup) {
 		this.testContextSetup=testContextSetup;
+		System.out.println("On Offers page1");
 		}
 	
 	

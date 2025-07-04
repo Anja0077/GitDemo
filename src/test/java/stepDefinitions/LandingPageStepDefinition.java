@@ -20,7 +20,7 @@ public class LandingPageStepDefinition {
 	 LandingPage lp;
 
 		public LandingPageStepDefinition(TestContextSetup testContextSetup) {
-			System.out.println("On landing Page");
+			System.out.println("On landing Page1");
 			this.testContextSetup=testContextSetup;
 			this.lp = testContextSetup.pageObjectManager.getLandingPage();
 			}
